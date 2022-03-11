@@ -1,0 +1,20 @@
+ table, tr, th, td {
+  border: 1px solid black;
+  vertical-align: middle;
+  border-collapse: collapse;
+} 
+
+table {
+  width: 100%;
+}
+
+#title-header {
+  text-align: center;
+  color: darkcyan; 
+}
+
+.input-container{
+  margin: auto;
+  width: 60%;
+}
+

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Expense Tracking Sheet</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="title-header" class="title_head">Expense Tracking Sheet</h1>
+
+    <!-- Input Div -->
+    <div id="inputContainer" class="input-container">
+        <label id="dateInput" for="date">Date:</label>
+        <input type="date" id="date">
+
+        <label id="expenseInput" for="expense">Expense:</label>
+        <input type="text" id="expense">
+
+        <label id="ammountInput" for="ammount">Ammount:</label>
+        <input type="text" id="ammount">
+
+        <button id="submit">Submit</button>
+    </div>
+
+
+    <!-- Table Div -->
+    <div id="table-container">
+        <script src="javascript.js" defer></script>
+        <table id="table" class="table">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Expense</th>
+                    <th>Ammount</th>
+                    <th>Remove Entry</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
